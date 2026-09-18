@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LearnSphere AI — a modern AI-powered learning platform for smarter, personalized education.">
+  <title>LearnSphere AI | Smart Learning for Everyone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="LearnSphere AI home">
+      <span class="logo-mark">✦</span><span>LearnSphere <b>AI</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a>
+      <a href="#features">Features</a><a href="#assistant">AI Assistant</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-small btn-primary header-cta" href="#assistant">Try AI Tutor →</a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span>●</span> AI-powered learning platform</div>
+        <h1>Learn smarter.<br><span>Grow faster.</span></h1>
+        <p>Personalized learning, intelligent tutoring, interactive quizzes, and progress insights — all in one beautiful learning space.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#assistant">Start Learning Free <span>→</span></a>
+          <a class="btn btn-ghost" href="#features"><span class="play">▶</span> Explore Features</a>
+        </div>
+        <div class="trust-row">
+          <div class="avatars"><span>R</span><span>A</span><span>S</span><span>+</span></div>
+          <div><b>10,000+</b><small>learners exploring</small></div>
+          <div class="rating">★★★★★ <small>4.9 learner rating</small></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="dashboard-card">
+          <div class="dash-top"><span>Learning Dashboard</span><span class="live">● LIVE</span></div>
+          <div class="welcome">Good afternoon, learner! 👋<small>Let's make today count.</small></div>
+          <div class="progress-card">
+            <div><small>Weekly progress</small><strong>78%</strong></div>
+            <div class="progress-track"><span style="width:78%"></span></div>
+            <small>+12% from last week</small>
+          </div>
+          <div class="mini-grid">
+            <div class="mini"><span class="mini-icon purple">✦</span><div><b>AI Tutor</b><small>Ready to help</small></div><span>→</span></div>
+            <div class="mini"><span class="mini-icon blue">✓</span><div><b>Quiz streak</b><small>7 days</small></div><span>🔥</span></div>
+            <div class="mini"><span class="mini-icon green">↗</span><div><b>Achievements</b><small>12 earned</small></div><span>→</span></div>
+            <div class="mini"><span class="mini-icon orange">◈</span><div><b>Next lesson</b><small>AI & Robotics</small></div><span>→</span></div>
+          </div>
+        </div>
+        <div class="floating-card float-one">✨ <b>Personalized</b><small>Learning path updated</small></div>
+        <div class="floating-card float-two">🏆 <b>New achievement!</b><small>Quiz Master unlocked</small></div>
+      </div>
+    </section>
+
+    <section class="stats section reveal">
+      <div><strong>10K+</strong><span>Active learners</span></div>
+      <div><strong>500+</strong><span>Learning resources</span></div>
+      <div><strong>25K+</strong><span>Quizzes completed</span></div>
+      <div><strong>98%</strong><span>Learning satisfaction</span></div>
+    </section>
+
+    <section class="section split" id="about">
+      <div class="section-label reveal">01 — ABOUT LEARNSPHERE</div>
+      <div class="split-content reveal">
+        <h2>Education that adapts <span>to you.</span></h2>
+        <p>LearnSphere AI combines modern learning resources with AI-powered guidance to make education more engaging, accessible, and personalized.</p>
+        <p>Whether you're revising a concept, preparing for a quiz, or building a new skill, your learning journey is designed around your goals and progress.</p>
+        <div class="check-list"><span>✓</span> Personalized learning recommendations <span>✓</span> Interactive and engaging content <span>✓</span> Progress insights that motivate</div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading reveal"><div class="section-label">02 — WHAT WE OFFER</div><h2>Everything you need to <span>keep learning.</span></h2><p>Simple tools. Smart guidance. Meaningful progress.</p></div>
+      <div class="service-grid">
+        <article class="service-card reveal"><div class="service-icon purple-bg">✦</div><h3>AI Tutoring</h3><p>Ask questions in natural language and receive clear, step-by-step explanations tailored to your learning level.</p><a href="#assistant">Meet your AI tutor →</a></article>
+        <article class="service-card reveal"><div class="service-icon blue-bg">▣</div><h3>Smart Quizzes</h3><p>Practice with interactive quizzes that help you check understanding and discover areas for improvement.</p><a href="#assistant">Try a quiz →</a></article>
+        <article class="service-card reveal"><div class="service-icon green-bg">↗</div><h3>Progress Tracking</h3><p>See your learning activity, milestones, streaks, and achievements in one simple dashboard.</p><a href="#features">View features →</a></article>
+        <article class="service-card reveal"><div class="service-icon orange-bg">◈</div><h3>Personalized Paths</h3><p>Explore recommended topics and resources based on your interests, goals, and learning progress.</p><a href="#features">Explore paths →</a></article>
+      </div>
+    </section>
+
+    <section class="section feature-section" id="features">
+      <div class="section-heading reveal"><div class="section-label">03 — PLATFORM FEATURES</div><h2>Built for <span>curious minds.</span></h2></div>
+      <div class="feature-layout">
+        <div class="feature-list reveal">
+          <button class="feature-tab active" data-feature="0"><span>01</span><div><b>Personalized Dashboard</b><small>Your goals, progress, and recommendations at a glance.</small></div><i>→</i></button>
+          <button class="feature-tab" data-feature="1"><span>02</span><div><b>Interactive Learning</b><small>Learn through engaging activities and knowledge checks.</small></div><i>→</i></button>
+          <button class="feature-tab" data-feature="2"><span>03</span><div><b>Achievements & Streaks</b><small>Celebrate milestones and build consistent learning habits.</small></div><i>→</i></button>
+          <button class="feature-tab" data-feature="3"><span>04</span><div><b>Real-time Updates</b><small>Keep learning content and platform information fresh.</small></div><i>→</i></button>
+        </div>
+        <div class="feature-preview reveal" id="featurePreview">
+          <span class="preview-badge">FEATURE PREVIEW</span><h3>Personalized<br>Dashboard</h3><p>Your learning space changes with your progress.</p>
+          <div class="chart"><span style="height:38%"></span><span style="height:55%"></span><span style="height:47%"></span><span style="height:72%"></span><span style="height:63%"></span><span style="height:88%"></span><span style="height:78%"></span></div>
+          <div class="preview-bottom"><b>Weekly growth <em>+12%</em></b><small>Keep going — you're building momentum.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section assistant-section" id="assistant">
+      <div class="ai-orb reveal"><div class="orb-ring"></div><div class="orb-core">✦</div></div>
+      <div class="assistant-copy reveal"><div class="eyebrow"><span>●</span> AI LEARNING ASSISTANT</div><h2>Meet your <span>always-on tutor.</span></h2><p>Try the demo below. Ask a learning question and LearnSphere AI will respond with a helpful starter explanation.</p>
+        <div class="chat-box">
+          <div class="chat-head"><span class="status-dot"></span><b>LearnSphere AI Tutor</b><small>Demo mode</small></div>
+          <div class="chat-messages" id="chatMessages"><div class="message ai">Hi! 👋 What would you like to learn today?</div></div>
+          <div class="suggestions"><button data-q="Explain photosynthesis simply">Photosynthesis</button><button data-q="What is machine learning?">Machine learning</button><button data-q="Give me a math study tip">Math tip</button></div>
+          <form id="chatForm"><input id="chatInput" placeholder="Ask your AI tutor..." autocomplete="off"><button aria-label="Send">↑</button></form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="section-heading reveal"><div class="section-label">04 — LEARNER VOICES</div><h2>Made to make learning <span>feel better.</span></h2></div>
+      <div class="testimonial-grid">
+        <blockquote class="testimonial reveal"><div class="stars">★★★★★</div><p>“The personalized dashboard makes it much easier to see what I should work on next.”</p><footer><span class="avatar">A</span><div><b>Aarav</b><small>Student learner</small></div></footer></blockquote>
+        <blockquote class="testimonial reveal"><div class="stars">★★★★★</div><p>“I like being able to ask questions and get a simple explanation before going deeper.”</p><footer><span class="avatar">S</span><div><b>Sanya</b><small>Student learner</small></div></footer></blockquote>
+        <blockquote class="testimonial reveal"><div class="stars">★★★★★</div><p>“The quizzes turn revision into something I actually look forward to doing.”</p><footer><span class="avatar">R</span><div><b>Rohan</b><small>Student learner</small></div></footer></blockquote>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card reveal"><div><div class="section-label">05 — GET STARTED</div><h2>Ready to start<br><span>learning smarter?</span></h2><p>Build better learning habits with AI-powered guidance and interactive resources.</p></div><a class="btn btn-primary" href="#assistant">Try LearnSphere AI →</a></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><a class="logo" href="#home"><span class="logo-mark">✦</span><span>LearnSphere <b>AI</b></span></a><p>Smart learning for curious minds.</p></div>
+    <div class="footer-links"><a href="#about">About</a><a href="#services">Services</a><a href="#features">Features</a><a href="#assistant">AI Tutor</a><a href="#contact">Contact</a></div>
+    <div><small>© 2026 LearnSphere AI. Demo website for Task 3.</small></div>
+  </footer>
+  <div class="toast" id="toast">Message sent to the AI tutor.</div>
+  <script src="script.js"></script>
+</body>
+</html>
